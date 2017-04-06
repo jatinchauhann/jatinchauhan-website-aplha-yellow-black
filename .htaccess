@@ -1,0 +1,8 @@
+RewriteEngine On
+DirectoryIndex index.html
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.jatinchauhan.in [NC]
+RewriteRule ^(.*)$ http://jatinchauhan.in/$1 [L,R=301]
+ServerSignature EMail
+SetEnv SERVER_ADMIN jtnchauhan24@gmail.com
+

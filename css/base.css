@@ -254,6 +254,7 @@ body {
 *:before,
 *:after {
 	box-sizing: inherit;
+    color: #D1C5BA ;
 }
 
 body {
